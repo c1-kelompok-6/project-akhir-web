@@ -27,10 +27,10 @@ if(isset($message)){
 
    <div class="header-2">
       <div class="flex">
-         <a href="home.php" class="logo">Breaking Books !</a>
+         <a href="index.php" class="logo">Breaking Books !</a>
 
          <nav class="navbar">
-            <a href="home.php">home</a>
+            <a href="index.php">home</a>
             <a href="about.php">about</a>
             <a href="shop.php">shop</a>
             <a href="contact.php">contact</a>
