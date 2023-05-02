@@ -83,7 +83,10 @@ if(mysqli_num_rows($select_products) > 0){
 
 <section class="products">
 
-   <h1 class="title">Produk terbaru</h1>
+   <h1 class="title">Produk terbaru</h1> 
+
+<!-- form untuk sorting -->
+
    <form action="" method="get" style="margin-left: 900px;">
     <label for="sortby">Urutkan berdasarkan:</label>
     <select name="sortby" id="sortby">
