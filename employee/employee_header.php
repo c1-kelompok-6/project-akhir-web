@@ -15,14 +15,13 @@ if(isset($message)){
 
    <div class="flex">
 
-      <a href="admin_page.php" class="logo">employee<span>Panel</span></a>
+      <a href="employee_page.php" class="logo">employee<span>Panel</span></a>
 
       <nav class="navbar">
-         <a href="admin_page.php">home</a>
-         <a href="admin_products.php">products</a>
-         <a href="admin_orders.php">orders</a>
+         <a href="employee_page.php">home</a>
+         <a href="employee_orders.php">orders</a>
   
-         <a href="admin_contacts.php">messages</a>
+         <a href="employee_contacts.php">messages</a>
       </nav>
 
       <div class="icons">
@@ -31,8 +30,8 @@ if(isset($message)){
       </div>
 
       <div class="account-box">
-         <p>username : <span><?php echo $_SESSION['admin_name']; ?></span></p>
-         <p>email : <span><?php echo $_SESSION['admin_email']; ?></span></p>
+         <p>username : <span><?php echo $_SESSION['employee_name']; ?></span></p>
+         <p>email : <span><?php echo $_SESSION['employee_email']; ?></span></p>
          <a href="../logout.php" class="delete-btn">logout</a>
          <div>new <a href="../login.php">login</a> | <a href="../register.php">register</a></div>
       </div>

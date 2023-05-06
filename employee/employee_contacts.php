@@ -4,16 +4,16 @@ include 'config.php';
 
 session_start();
 
-$admin_id = $_SESSION['admin_id'];
+$employee_id = $_SESSION['employee_id'];
 
-if(!isset($admin_id)){
+if(!isset($employee_id)){
    header('location:../login.php');
 };
 
 if(isset($_GET['delete'])){
    $delete_id = $_GET['delete'];
    mysqli_query($conn, "DELETE FROM `message` WHERE id = '$delete_id'") or die('query failed');
-   header('location:admin_contacts.php');
+   header('location:employee_contacts.php');
 }
 
 ?>
@@ -35,7 +35,7 @@ if(isset($_GET['delete'])){
 </head>
 <body>
    
-<?php include 'admin_header.php'; ?>
+<?php include 'employee_header.php'; ?>
 
 <section class="messages">
 
@@ -54,7 +54,7 @@ if(isset($_GET['delete'])){
       <p> number : <span><?php echo $fetch_message['number']; ?></span> </p>
       <p> email : <span><?php echo $fetch_message['email']; ?></span> </p>
       <p> message : <span><?php echo $fetch_message['message']; ?></span> </p>
-      <a href="admin_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">delete message</a>
+      <a href="employee_contacts.php?delete=<?php echo $fetch_message['id']; ?>" onclick="return confirm('delete this message?');" class="delete-btn">delete message</a>
    </div>
    <?php
       };
