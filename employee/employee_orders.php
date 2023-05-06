@@ -4,9 +4,9 @@ include 'config.php';
 
 session_start();
 
-$admin_id = $_SESSION['admin_id'];
+$employee_id = $_SESSION['employee_id'];
 
-if(!isset($admin_id)){
+if(!isset($employee_id)){
    header('location:../login.php');
 }
 
@@ -22,7 +22,7 @@ if(isset($_POST['update_order'])){
 if(isset($_GET['delete'])){
    $delete_id = $_GET['delete'];
    mysqli_query($conn, "DELETE FROM `orders` WHERE id = '$delete_id'") or die('query failed');
-   header('location:admin_orders.php');
+   header('location:employee_orders.php');
 }
 
 ?>
@@ -45,7 +45,7 @@ if(isset($_GET['delete'])){
 </head>
 <body>
    
-<?php include 'admin_header.php'; ?>
+<?php include 'employee_header.php'; ?>
 
 <section class="orders">
 
@@ -75,7 +75,7 @@ if(isset($_GET['delete'])){
                <option value="completed">completed</option>
             </select>
             <input type="submit" value="update" name="update_order" class="option-btn">
-            <a href="admin_orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('delete this order?');" class="delete-btn">delete</a>
+            <a href="employee_orders.php?delete=<?php echo $fetch_orders['id']; ?>" onclick="return confirm('delete this order?');" class="delete-btn">delete</a>
          </form>
       </div>
       <?php
