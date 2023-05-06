@@ -21,6 +21,13 @@ if(isset($_POST['submit'])){
          $_SESSION['admin_id'] = $row['id'];
          header('location:admin_page.php');
 
+      }elseif($row['user_type'] == 'employee'){
+
+            $_SESSION['employee_name'] = $row['name'];
+            $_SESSION['employee_email'] = $row['email'];
+            $_SESSION['employee_id'] = $row['id'];
+            header('location:employee/employee_page.php');
+
       }elseif($row['user_type'] == 'user'){
 
          $_SESSION['user_name'] = $row['name'];
@@ -37,7 +44,6 @@ if(isset($_POST['submit'])){
 }
 
 ?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>

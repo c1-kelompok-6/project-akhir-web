@@ -4,10 +4,10 @@ include 'config.php';
 
 session_start();
 
-$admin_id = $_SESSION['admin_id'];
+$employee_id = $_SESSION['employee_id'];
 
-if(!isset($admin_id)){
-   header('location:login.php');
+if(!isset($employee_id)){
+   header('location:../login.php');
 }
 
 ?>
@@ -18,18 +18,19 @@ if(!isset($admin_id)){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>admin panel</title>
+   <title>employee panel</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
    <!-- custom admin css file link  -->
-   <link rel="stylesheet" href="css/admin_style.css">
+   <link rel="stylesheet" href="../css/admin_style.css">
+   
 
 </head>
 <body>
    
-<?php include 'admin_header.php'; ?>
+<?php include 'employee_header.php'; ?>
 
 <!-- admin dashboard section starts  -->
 
@@ -50,7 +51,7 @@ if(!isset($admin_id)){
                };
             };
          ?>
-         <h3>RP <?php echo $total_pendings; ?></h3>
+         <h3>RP <?php echo $total_pendings; ?> </h3>
          <p>total pendings</p>
       </div>
 
@@ -98,11 +99,11 @@ if(!isset($admin_id)){
 
       <div class="box">
          <?php 
-            $select_admins = mysqli_query($conn, "SELECT * FROM `users` WHERE user_type = 'admin'") or die('query failed');
-            $number_of_admins = mysqli_num_rows($select_admins);
+            $select_pegawai = mysqli_query($conn, "SELECT * FROM `users` WHERE user_type = 'employee'") or die('query failed');
+            $number_of_pegawai = mysqli_num_rows($select_pegawai);
          ?>
-         <h3><?php echo $number_of_admins; ?></h3>
-         <p>admin users</p>
+         <h3><?php echo $number_of_pegawai; ?></h3>
+         <p>employee users</p>
       </div>
 
       <div class="box">
@@ -138,7 +139,7 @@ if(!isset($admin_id)){
 
 
 <!-- custom admin js file link  -->
-<script src="js/admin_script.js"></script>
+<script src="../js/admin_script.js"></script>
 
 </body>
 </html>

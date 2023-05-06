@@ -4,11 +4,7 @@ include 'config.php';
 
 session_start();
 
-$user_id = $_SESSION['user_id'];
 
-if(!isset($user_id)){
-   header('location:login.php');
-}
 
 ?>
 
@@ -28,8 +24,8 @@ if(!isset($user_id)){
 
 </head>
 <body>
-   
-<?php include 'header.php'; ?>
+<?php session_destroy();?>
+<?php include 'guest_header.php'; ?>
 
 <div class="heading">
    <h3>about us</h3>
