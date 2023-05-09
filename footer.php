@@ -28,14 +28,14 @@
 
       <div class="box">
          <h3>follow us</h3>
-         <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-         <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
-         <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+         <a href="https://www.facebook.com/ras.jan.31" target="_blank"> <i class="fab fa-facebook-f"></i> facebook </a>
+         <a href="https://twitter.com/bdthemescom/status/1636019442134941696?s=20" target="_blank"> <i class="fab fa-twitter"></i> twitter </a>
+         <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.reddit.com%2Fr%2FProgrammerHumor%2Fcomments%2F9ccefl%2Fcss%2F&psig=AOvVaw2pst5iF9fbiIys_BeK8Bub&ust=1683724156036000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCJDwxLOn6P4CFQAAAAAdAAAAABAE" target="_blank" > <i class="fab fa-instagram"></i> instagram </a>
          <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
       </div>
 
    </div>
 
-   <p class="credit"> &copy; copyright  @ <?php echo date('Y'); ?> by <span>C1 Kelompok 6</span> </p>
+   <p class="credit"> &copy; copyright  @<?php echo date('Y'); ?> by <span>C1 Kelompok 6</span> </p>
 
 </section>

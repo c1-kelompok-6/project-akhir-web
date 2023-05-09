@@ -20,10 +20,10 @@ if(isset($_POST['send'])){
    $select_message = mysqli_query($conn, "SELECT * FROM `message` WHERE name = '$name' AND email = '$email' AND number = '$number' AND message = '$msg'") or die('query failed');
 
    if(mysqli_num_rows($select_message) > 0){
-      $message[] = 'message sent already!';
+      $message[] = 'pesan sudah terkirim!';
    }else{
       mysqli_query($conn, "INSERT INTO `message`(user_id, name, email, number, message) VALUES('$user_id', '$name', '$email', '$number', '$msg')") or die('query failed');
-      $message[] = 'message sent successfully!';
+      $message[] = 'berhasil mengirim pesan!';
    }
 
 }
@@ -58,11 +58,11 @@ if(isset($_POST['send'])){
 
    <form action="" method="post">
       <h3>berikan pesan!</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box">
-      <input type="email" name="email" required placeholder="enter your email" class="box">
-      <input type="number" name="number" required placeholder="enter your number" class="box">
-      <textarea name="message" class="box" placeholder="enter your message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" value="send message" name="send" class="btn">
+      <input type="text" name="name" required placeholder="masukkan nama" class="box">
+      <input type="email" name="email" required placeholder="masukkan email" class="box">
+      <input type="number" name="number" required placeholder="masukkan nomor hp" class="box">
+      <textarea name="message" class="box" placeholder="masukkan pesan anda" id="" cols="30" rows="10"></textarea>
+      <input type="submit" value="kirim pesan" name="send" class="btn">
    </form>
 
 </section>

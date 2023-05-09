@@ -51,174 +51,81 @@ session_start();
 
 </section>
 
-<section class="reviews">
-
-   <h1 class="title">review pelanggan</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <img src="images/orang11.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Syahrul Ramadhana</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/orang2.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Rahmad Fitrianto</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/orang3.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Albob</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/orang4.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Jidan</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/orang7.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Bella L</h3>
-      </div>
-
-      <div class="box">
-         <img src="images/orang6.jpg" alt="">
-         <p>Bukunya sangat membantu aku untuk mencari referensi kerja.. buku nya sangat aman dan bebas dari iklan terimakasih Breaking Books.</p>
-         <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-         </div>
-         <h3>Nabila</h3>
-      </div>
-
-   </div>
-
-</section>
-
-<!-- <section class="authors">
+<section class="authors">
 
    <h1 class="title">greate authors</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/orang7.jpg" alt="">
+         <img src="images/orang16.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Hikmat Darmawan</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-2.jpg" alt="">
+         <img src="images/orang12.jpeg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Buya Hamka</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-3.jpg" alt="">
+         <img src="images/orang15.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Tere Liye</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-4.jpg" alt="">
+         <img src="images/orang1.jpeg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Sohn Won-Pyong</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-5.jpg" alt="">
+         <img src="images/orang14.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Teresa San</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-6.jpg" alt="">
+         <img src="images/orang3.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Albyob</h3>
       </div>
 
    </div>
 
-</section> -->
-
-
-
-
-
-
+</section>
 
 <?php include 'footer.php'; ?>
 

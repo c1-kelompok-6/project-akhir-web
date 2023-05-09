@@ -86,8 +86,8 @@ if(mysqli_num_rows($select_products) > 0){
 
 <!-- form sorting -->
 
-   <form action="" method="get" style="margin-left: 900px;">
-    <label for="sortby">Urutkan berdasarkan:</label>
+   <form class="asc" action="" method="get" style="margin-left: 900px;">
+    <label for="sortby"></label>
     <select name="sortby" id="sortby">
         <option value="name" <?php if($sortby == 'name') echo 'selected'; ?>>Nama</option>
         <option value="price" <?php if($sortby == 'price') echo 'selected'; ?>>Harga</option>

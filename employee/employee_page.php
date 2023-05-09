@@ -66,7 +66,7 @@ if(!isset($employee_id)){
                };
             };
          ?>
-         <h3>$<?php echo $total_completed; ?>/-</h3>
+         <h3>RP <?php echo $total_completed; ?></h3>
          <p>completed payments</p>
       </div>
 
