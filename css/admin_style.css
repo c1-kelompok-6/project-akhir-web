@@ -262,7 +262,7 @@ section{
 }
 
 .dashboard .box-container .box h3{
-   font-size: 5rem;
+   font-size: 3rem;
    color:var(--black); 
 }
 
@@ -384,12 +384,14 @@ section{
 
 .orders .box-container{
    display: grid;
-   grid-template-columns: repeat(auto-fit, 30rem);
+   grid-template-columns: repeat(3, 30rem);
    justify-content: center;
    gap:1.5rem;
    max-width: 1200px;
    margin:0 auto;
    align-items: flex-start;
+   width: 100px;
+   height: 100px;
 }
 
 .orders .box-container .box{
@@ -398,6 +400,7 @@ section{
    border:var(--border);
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
+   height: 100%;
 }
 
 .orders .box-container .box p{

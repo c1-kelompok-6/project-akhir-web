@@ -55,7 +55,7 @@ if(!isset($user_id)){
 
 </section>
 
-<section class="reviews">
+<!-- <section class="reviews">
 
    <h1 class="title">review pelanggan</h1>
 
@@ -140,83 +140,83 @@ if(!isset($user_id)){
 
    </div>
 
-</section>
+</section> -->
 
-<!-- <section class="authors">
+<section class="authors">
 
    <h1 class="title">greate authors</h1>
 
    <div class="box-container">
 
       <div class="box">
-         <img src="images/orang7.jpg" alt="">
+         <img src="images/orang16.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Hikmat Darmawan</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-2.jpg" alt="">
+         <img src="images/orang12.jpeg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Buya Hamka</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-3.jpg" alt="">
+         <img src="images/orang15.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Tere Liye</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-4.jpg" alt="">
+         <img src="images/orang1.jpeg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Sohn Won-Pyong</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-5.jpg" alt="">
+         <img src="images/orang14.jpg" alt="">
          <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Teresa San</h3>
       </div>
 
       <div class="box">
-         <img src="images/author-6.jpg" alt="">
+         <img src="images/orang3.jpg" alt="">
          <div class="share">
-            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fid.pinterest.com%2Fpin%2F176836722856968314%2F&psig=AOvVaw0nsFnfU2eHzmZf5M1YAhC-&ust=1683724233598000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCOC1wdin6P4CFQAAAAAdAAAAABAE" target="_blank" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
             <a href="#" class="fab fa-instagram"></a>
             <a href="#" class="fab fa-linkedin"></a>
          </div>
-         <h3>john deo</h3>
+         <h3>Albyob</h3>
       </div>
 
    </div>
 
-</section> -->
+</section>
 
 
 

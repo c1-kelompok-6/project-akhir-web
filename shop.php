@@ -20,10 +20,10 @@ if(isset($_POST['add_to_cart'])){
    $check_cart_numbers = mysqli_query($conn, "SELECT * FROM `cart` WHERE name = '$product_name' AND user_id = '$user_id'") or die('query failed');
 
    if(mysqli_num_rows($check_cart_numbers) > 0){
-      $message[] = 'already added to cart!';
+      $message[] = 'produk sudah ditambah ke dalam keranjang!';
    }else{
       mysqli_query($conn, "INSERT INTO `cart`(user_id, name, price, quantity, image) VALUES('$user_id', '$product_name', '$product_price', '$product_quantity', '$product_image')") or die('query failed');
-      $message[] = 'product added to cart!';
+      $message[] = 'berhasil memasukkan produk ke keranjang!';
    }
 
 }
@@ -87,15 +87,15 @@ if(mysqli_num_rows($select_products) > 0){
 
 <!-- form sorting -->
 
-   <form action="" method="get" style="margin-left: 900px;">
-    <label for="sortby">Urutkan berdasarkan:</label>
+   <form class="asc" action="" method="get">
+    <label for="sortby"></label>
     <select name="sortby" id="sortby">
         <option value="name" <?php if($sortby == 'name') echo 'selected'; ?>>Nama</option>
         <option value="price" <?php if($sortby == 'price') echo 'selected'; ?>>Harga</option>
     </select>
     <select name="sorttype" id="sorttype">
-        <option value="asc" <?php if($sorttype == 'asc') echo 'selected'; ?>>Ascending</option>
-        <option value="desc" <?php if($sorttype == 'desc') echo 'selected'; ?>>Descending</option>
+        <option value="asc" <?php if($sorttype == 'asc') echo 'selected'; ?>>Asc</option>
+        <option value="desc" <?php if($sorttype == 'desc') echo 'selected'; ?>>Desc</option>
     </select>
     <button type="submit" name="sort">Urutkan</button>
 </form>
