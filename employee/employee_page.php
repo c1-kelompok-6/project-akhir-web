@@ -51,7 +51,7 @@ if(!isset($employee_id)){
                };
             };
          ?>
-         <h3>RP <?php echo $total_pendings; ?> </h3>
+         <h3>RP <?php echo number_format($total_pendings, 0, ',','.'); ?></h3>
          <p>total pendings</p>
       </div>
 

@@ -477,6 +477,7 @@ section{
    border:var(--border);
    box-shadow: var(--box-shadow);
    border-radius: .5rem;
+   height: 100%;
 }
 
 .messages .box-container .box p{
