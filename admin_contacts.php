@@ -59,7 +59,7 @@ if(isset($_GET['delete'])){
    <?php
       };
    }else{
-      echo '<p class="empty">you have no messages!</p>';
+      echo '<p class="empty">belum ada message diterima!</p>';
    }
    ?>
    </div>
