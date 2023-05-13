@@ -275,7 +275,14 @@ Orders<br>
 Pada Menu Orders akan mencatat Transaksi pembelian buku anda<br>
 ![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/User/User_Menu%20orders(kosong).png)<br>
 ![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/User/User_Menu%20orders(berisi).png)<br>
+ 
+<br>
+table relasi<br>
+one to many  = 1 cart bisa diisi banyak produk<br>
+one to one = 1 user bisa mengirim 1 message<br>
+many to many = banyak produk bisa dibeli banyak user
 
+![1](https://github.com/c1-kelompok-6/project-akhir-web/assets/120198951/06426793-5165-46e2-bd6e-274e34b8db9e)
 
 
 
