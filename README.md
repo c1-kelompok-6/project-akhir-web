@@ -76,8 +76,8 @@ Home<br>
 
 
 
-![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/Admin/Menu%20Home%20Admin(kosong).png)<br>
-![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/Admin/Menu%20Home%20Admin(berisi).png)<br>
+
+![3](https://github.com/c1-kelompok-6/project-akhir-web/assets/120198951/dc3b782d-0215-4210-a609-f47e805f8dcf)<br>
 
 Pada Menu Home digunakan untuk mencatat otomatis transaksi pada website Breaking Books !<br><br>
 
@@ -121,8 +121,7 @@ pada bagian Employee terdapat tiga menu yaitu :<br>
 Home<br>
 
 Pada Menu Home digunakan untuk mencatat otomatis transaksi pada website Breaking Books !<br>
-![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/Employee/Employee_Menu%20home%20(kosong).png)<br>
-![alt text](https://github.com/c1-kelompok-6/project-akhir-web/blob/main/foto_tutorial/Employee/Employee_Menu%20home%20(berisi).png)<br>
+![2](https://github.com/c1-kelompok-6/project-akhir-web/assets/120198951/c8f312b1-31b4-40bc-bc9e-c496b14dca27)<br>
 
 
 
